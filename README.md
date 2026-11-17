@@ -147,6 +147,12 @@ Please also cite Aurora:
 
 ---
 
+## Support
+
+This work is part of the [FETCH<sub>4</sub> project](https://fetch4.github.io/), and support was provided by Schmidt Sciences.
+
+---
+
 ## License
 
 MIT; see `LICENSE`. `aurora/` is MIT-licensed by Microsoft Corporation; see `aurora/LICENSE.txt`.
@@ -159,9 +165,3 @@ Questions? Open an issue on [GitHub](https://github.com/AuroraChem/AuroraChem) o
 
 - **Eliot Kim** (lead developer): ejkim1@uw.edu
 - **Alex Turner**: turneraj@uw.edu
-
----
-
-## Support
-
-This work is part of the [FETCH<sub>4</sub> project](https://fetch4.github.io/), and support was provided by Schmidt Sciences.
