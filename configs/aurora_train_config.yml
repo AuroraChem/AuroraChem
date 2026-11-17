@@ -1,0 +1,52 @@
+run_name: "ft_tr18_te19_E5_D_W_P_LC_oh_no_no2_cl_o3_co_14co_MOREEPOCH_CORRECTED_MAES_DOY_S41"
+gpu: 0
+
+# paths
+data_dir: "path/to/data"
+output_dir: "path/to/output"
+
+# Run config
+save_weights: True
+new_static: True
+interp_scheme: "_uniform"
+interp_gc: True
+interp_scheme_gc: "_uniform_fix2"
+gc_version: "fetch"
+met_type: "era5"
+adamw: False
+
+# Field config
+phys_only_flag: False
+species_list: ["OH", "NO", "NO2", "Cl", "O3", "CO", "C14O"]
+met_list: []
+
+# Architecture config
+seed: 41
+patch_size: 1
+transform: False
+separate_perc: True
+level_cond: True
+
+# Learning rate schedule config
+early_stopping: True
+patience: 7
+lr_decay_flag: True
+lr_warm_flag: True
+
+# Loss function config
+polar_mask_flag: True
+
+training:
+    years: [2018]
+    samples: 50
+    epochs: 60
+    chem_lr: 0.01
+    met_lr: 0.001
+    chem_weight: True
+
+validation:
+    samples: 30
+
+testing:
+    years: [2019]
+    samples: 1
