@@ -71,7 +71,7 @@ data_dir/
 
 | Category | Fields | Source |
 |---|---|---|
-| Chemical | OH, Cl, NO, NO<sub>2</sub>, O<sub>3</sub>, CO, <sup>14</sup>CO | GEOS-Chem v14.5.3 (FETCH4 simulation) |
+| Chemical | OH, Cl, NO, NO<sub>2</sub>, O<sub>3</sub>, CO, <sup>14</sup>CO | GEOS-Chem v14.5.3 (FETCH<sub>4</sub> simulation) |
 | Meteorological | T, q, U, V, Z on pressure levels | ERA5 |
 | Surface meteorology | 2 m T, 10 m U and V, mean sea level pressure | ERA5 |
 | Emissions (input only) | Monthly anthropogenic CO, NO<sub>x</sub>, NH<sub>3</sub>, SO<sub>2</sub> | [CAMS global emission inventories](https://ads.atmosphere.copernicus.eu/datasets/cams-global-emission-inventories) |
@@ -159,3 +159,9 @@ Questions? Open an issue on [GitHub](https://github.com/AuroraChem/AuroraChem) o
 
 - **Eliot Kim** (lead developer): ejkim1@uw.edu
 - **Alex Turner**: turneraj@uw.edu
+
+---
+
+## Support
+
+This work is part of the [FETCH<sub>4</sub> project](https://fetch4.github.io/), and support was provided by Schmidt Sciences.
