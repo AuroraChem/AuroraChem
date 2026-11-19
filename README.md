@@ -139,7 +139,7 @@ Place `<run_name>_best_weights.pth` and `<run_name>_norm_stats.npz` in `output_d
 
 If you use AuroraChem in your research, please cite:
 
-> Kim, E. J., Mei, E. J., Ivatt, P. D., Murray, L. T., and Turner, A. J. (submitted). Enabling joint chemical and meteorological data assimilation with an atmospheric foundation model.
+> [Kim, E. J., Mei, E. J., Ivatt, P. D., Murray, L. T., and Turner, A. J. (2026). Enabling joint chemical and meteorological data assimilation with an atmospheric foundation model, arXiv:2611.24020.](https://arxiv.org/abs/2611.24020)
 
 Please also cite Aurora:
 
